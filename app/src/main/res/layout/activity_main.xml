@@ -58,12 +58,14 @@
                 android:id="@+id/twoBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="twoBTN"
                 android:text="@string/two" />
 
             <Button
                 android:id="@+id/threeBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="threeBTN"
                 android:text="@string/three" />
 
             <Button
@@ -81,18 +83,21 @@
                 android:id="@+id/fourBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="fourBTN"
                 android:text="@string/four" />
 
             <Button
                 android:id="@+id/fiveBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="fiveBTN"
                 android:text="@string/five" />
 
             <Button
                 android:id="@+id/sixBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="sixBTN"
                 android:text="@string/six" />
 
             <Button
@@ -110,18 +115,21 @@
                 android:id="@+id/sevenBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="sevenBTN"
                 android:text="@string/seven" />
 
             <Button
                 android:id="@+id/eightBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="eightBTN"
                 android:text="@string/eight" />
 
             <Button
                 android:id="@+id/nineBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="nineBTN"
                 android:text="@string/nine" />
 
             <Button
@@ -146,6 +154,7 @@
                 android:id="@+id/zeroBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="zeroBTN"
                 android:text="@string/zero" />
 
             <Button

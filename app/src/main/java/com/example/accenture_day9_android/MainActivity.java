@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         int cursorPosition = display.getSelectionStart();
         String leftString = oldString.substring(0, cursorPosition);
         String rightString = oldString.substring(cursorPosition);
-        display.setText(String.format("%s%s%s", leftString, stringToAdd , rightString));
+        display.setText(String.format("%s%s%s", rightString , stringToAdd , leftString));
     }
 
     public void oneBTN(View view){
